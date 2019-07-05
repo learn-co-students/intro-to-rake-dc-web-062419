@@ -49,6 +49,7 @@ class Student
   def self.all
     sql = "SELECT * FROM students" 
     DB[:conn].execute(sql)
+    # binding.pry
   end
 
 end
